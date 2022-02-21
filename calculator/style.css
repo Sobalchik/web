@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.wrapper{
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 833px;
+    background: blue;
+    margin: 30px 150px;
+
+    background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+    border-radius: 39px;
+}
+.display {
+    width: 328px;
+    height: 179px;
+
+    font-size: 48px;
+    line-height: 72px;
+    text-align: end;
+
+    margin: 100px 91px 50px 34px;
+
+    color: #FFFFFF;
+}
+.ui {
+    width: 308px;
+    height: 442px;
+    margin: 0 58px 61px 34px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.special-symbols {
+    display: flex;
+    width: 308px;
+    height: 40px;
+
+    margin-bottom: 16px;
+}
+.special-symbols--item {
+    width: 62px;
+    height: 40px;
+    background: #303136;
+    border-radius: 24px;
+    margin-right: 20px;
+
+    font-size: 20px;
+    line-height: 40px;
+
+    color: #29A8FF;
+
+    text-decoration: none;
+    text-align: center;
+}
+.special-symbols--item:last-child{
+    margin-right: 0;
+}
+.second-line-wrapper {
+    display: flex;
+    width: 308px;
+    height: 62px;
+}
+.delete-all,.delete-last,.divide,.multiply,.minus,.plus,.result{
+    width: 62px;
+    height: 62px;
+    background: #616161;
+    border-radius: 16px;
+    margin-right: 20px;
+
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 24px;
+    line-height: 60px;
+
+    color: #A5A5A5;
+
+    text-decoration: none;
+    text-align: center;
+}
+.vector{
+
+    height: 25px;
+    width: 30px;
+
+    background-size: cover;
+
+    margin: 17px;
+
+}
+
+.multiply,.divide,.minus{
+    background: #005DB2;
+    color: #339DFF;
+
+    font-size: 30px;
+    line-height: 60px
+}
+
+.minus{
+    margin-bottom: 22px;
+}
+.plus,.result{
+
+    width: 62px;
+    height: 96px;
+
+    background: #005DB2;
+    color: #339DFF;
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 95px;
+
+    margin-bottom: 22px;
+
+    text-align: center;
+}
+.result{
+    background: #1991FF;
+    color: #B2DAFF;
+    margin-bottom: 0;
+}
+
+.multiply {
+    margin-right: 0;
+
+    font-size: 45px;
+    line-height: 80px
+}
+
+.numbers-plus-minus-block-wrapper{
+    margin-top: 22px;
+    display: flex;
+    width: 308px;
+    height: 302px;
+}
+
+.numbers{
+    display: block;
+    width: 226px;
+    height: 296px;
+}
+
+.numbers-wrapper-9-7,.numbers-wrapper-6-3,.numbers-wrapper-3-1,.zero-dot-wrapper{
+    display: flex;
+    width: 226px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.number-9,.number-8,.number-7,.number-6,.number-5,
+.number-4,.number-3,.number-2,.number-1,.number-0,
+.dot{
+
+    width: 62px;
+    height: 62px;
+    background: #303136;
+    border-radius: 16px;
+    margin-right: 20px;
+
+    font-style: normal;
+    font-weight: 500;
+
+    font-size: 24px;
+    line-height: 60px;
+
+    color: #29A8FF;
+
+    text-decoration: none;
+    text-align: center;
+}
+.number-9,.number-6,.number-3,.dot{
+    margin-right: 0;
+}
+.number-0{
+    width: 144px;
+    height: 60px;
+}
+
+.plus-minus-result-block{
+    width: 62px;
+    height: 294px;
+    margin-left: 20px;
+}
+
+.btn:hover{
+    filter: brightness(1.5);
+}
+
+
+
+
+
+
+
